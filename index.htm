@@ -1,0 +1,802 @@
+﻿
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html id="index" class="wide wow-animation scrollTo smoothscroll" lang="en">
+
+<head>
+    <head>
+    <script type="text/javascript" nonce="3c3f5624-0410-4562-aaea-cbf8186db7d7">
+        !function (T, l, y) { var S = T.location, k = "script", D = "instrumentationKey", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = "crossOrigin", N = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) && (T[e] = t); var n = T[t] || function (d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "5", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S && S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function () { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length && (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), iKey: e, name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, u, p, l; g = !0, m.queue = [], f || (f = !0, t = h, s = function () { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a < n.length; a++) { var i = n[a].split("="); 2 === i.length && (e[i[0][b]()] = i[1]) } if (!e[C]) { var r = e.endpointsuffix, o = r ? e.location : null; e[C] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[D] || d[D] || "", u = s[C], p = u ? u + "/v2/track" : d.endpointUrl, (l = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = p, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S && S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), l.push(function (e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, p)), function (e, t) { if (JSON) { var n = T.fetch; if (n && !y.useXhr) n(t, { method: N, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(N, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(l, p)) } function i(e, t) { f || setTimeout(function () { !t && m.core || a() }, 500) } var e = function () { var n = l.createElement(k); n.src = h; var e = y[w]; return !e && "" !== e || "undefined" == n[w] || (n[w] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState && "complete" !== n.readyState || i(0, t) }, n }(); y.ld < 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { l.getElementsByTagName(k)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { m[t] = function () { var e = arguments; g || m.queue.push(function () { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[I] && !0 !== s[I]) { var c = "onerror"; t(["_" + c]); var u = T[c]; T[c] = function (e, t, n, a, i) { var r = u && u(e, t, n, a, i); return !0 !== r && m["_" + c]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); function a() { y.onInit && y.onInit(n) } (T[t] = n).queue && 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document,
+            {
+                src: "/Scripts/ai.2.min.js", // The SDK URL Source
+                // name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+                // ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+                // useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+                // crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag
+                onInit: function(appInsights) {
+                    var serverId = "f186faf858209cb41b037cd86f4b0963";
+                    appInsights.context.telemetryTrace.parentID = serverId;
+                }, // Once the application insights instance has loaded and initialized this callback function will be called with 1 argument -- the sdk instance (DO NOT ADD anything to the sdk.queue -- As they won't get called)
+                cfg: { // Application Insights Configuration
+                    instrumentationKey: "cf205fbd-a1c5-45ca-957e-f8284dfc6ad5",
+                    disableFetchTracking: false,
+                    enableCorsCorrelation: true,
+                    enableAutoRouteTracking: true,
+                    enableRequestHeaderTracking: true,
+                    enableResponseHeaderTracking: true,
+                    enableAjaxErrorStatusText: true,
+                    enableAjaxPerfTracking: true
+                }
+            }
+        );
+    </script>
+    </head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="gtag/js?id=UA-145842240-1"></script>
+    <script type="text/javascript" nonce="3c3f5624-0410-4562-aaea-cbf8186db7d7">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-145842240-1');
+    </script>
+    <!-- End Google Tag Manager -->
+    <title>What Do You Think? Competitions, Surveys and More!</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="keywords" content="WDYT - Australia's favourite reward site">
+    <meta name="Description" content="What Do You Think (WDYT) rewards the opinions of all Australians. Earn rewards and cash online by completing surveys we send you.">
+    <meta name="date" content="Dec 26">
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-T96QT9');</script>
+    <!-- End Google Tag Manager -->
+    <link rel="icon" type="image/x-icon" href="Content/WDYT/images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css?family=Montserrat:400,700%7CLato:300,300italic,400,700,900%7CYesteryear">
+    <link rel="stylesheet" href="Content/WDYT/css/style.css">
+    <link rel="stylesheet" href="Content/WDYT/css/novi.css">
+    <link rel="stylesheet" href="Content/WDYT/css/jquery-ui.css">
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;">
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
+                src="./Content/WDYT/images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
+    </div>
+    <script src="/Content/WDYT/cssjs/html5shiv.min.js"></script><![endif]-->
+    <!-- Global site tag (gtag.js) - Google Ads: 707836602 -->
+    <script async="" src="gtag/js-1?id=AW-707836602"></script>
+    <script type="text/javascript" nonce="3c3f5624-0410-4562-aaea-cbf8186db7d7">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-707836602');
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script type="text/javascript" nonce="3c3f5624-0410-4562-aaea-cbf8186db7d7">
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '384239605837463');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src="tr?id=384239605837463&ev=PageView&noscript=1">
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T96QT9" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="page-loader page-loader-variant-1">
+        <div>
+            <img class="img-fluid" style="margin-top: -20px;margin-left: -18px;" width="255" height="70" src="Content/WDYT/images/wdyt_logo_whiteblue-1.png" alt="">
+            <div class="offset-top-41 text-center">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+    <div class="page text-center">
+        <header class="section page-head slider-menu-position">
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar rd-navbar-default rd-navbar-transparent" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-lg-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
+                    <div class="rd-navbar-inner">
+                        <div class="rd-navbar-panel">
+                            <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap">
+                                <span></span>
+                            </button>
+                            <div class="rd-navbar-mobile-brand">
+                                <a href="index.htm">
+                                    <img style="width: 28%;margin-top: -66px;" src="Content/WDYT/images/wdyt_logo_whiteblue-1.png" class="img-fluid headimg" alt="">
+                                </a>
+                            </div>
+                            <div class="rd-navbar-brand">
+                                <a href="index.htm">
+                                    <img style="margin-top: -1px;margin-left: -15px;" width="140" height="39" src="Content/WDYT/images/wdyt_logo_whiteblue-1.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rd-navbar-menu-wrap">
+                            <div class="rd-navbar-nav-wrap">
+                                <div class="rd-navbar-mobile-scroll">
+                                    
+                                    <ul class="rd-navbar-nav">
+                                        <li class="active rd-navbar--has-dropdown rd-navbar-submenu opened">
+                                            <a href="index.htm"><span>Home</span></a>
+                                        </li>
+                                        <li class="rd-navbar--has-dropdown rd-navbar-submenu">
+                                            <a href="Aboutus.html"><span>about</span></a>
+                                        </li>
+                                        <li class="rd-navbar--has-megamenu rd-navbar-submenu opened">
+                                            <a href="Rewards.html"><span>wdyt rewards</span></a>
+                                        </li>
+
+                                        <li class="rd-navbar--has-dropdown rd-navbar-submenu opened">
+                                            <a href="FAQ.html"><span>faqs</span></a>
+                                        </li>
+                                        <li class="rd-navbar--has-dropdown rd-navbar-submenu opened">
+                                            <a href="PrivacyPolicy.html"><span>privacy</span></a>
+                                        </li>
+                                        <li class="rd-navbar--has-dropdown rd-navbar-submenu opened">
+                                            <a href="ContactUs.html"><span>contact</span></a>
+                                        </li>
+
+                                            <li class="rd-navbar--has-megamenu rd-navbar-submenu opened">
+                                                <a href="Account/Join.html"><span>join now</span></a>
+                                            </li>
+                                            <li class="active rd-navbar--has-megamenu rd-navbar-submenu opened">
+                                                <button type="button" style="width:100%;" class="btn btn-primary btn-anis-effect" data-toggle="modal" data-target="#exampleModal">
+                                                    <span class="btn-text">login</span>
+                                                </button>
+                                            </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- <div class="rd-navbar-btn-wrap"><button type="button"
+                                    class="btn btn-primary btn-anis-effect" data-toggle="modal"
+                                    data-target="#exampleModal"><span class="btn-text">login</span></button></div> -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="widthmodal modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <center>
+                                                <img src="Content/WDYT/images/man.png" alt="login" class="img-fluid mt-3 mb-3">
+                                                <h3>Login to your account</h3>
+                                                <p class="text-light" style="margin-top:-15px;">
+                                                    Enter your credentials below
+                                                </p>
+                                                <br>
+                                                <form action="/Account/LogOn" method="post" class="rd-mailform form-group container-fluid" data-form-output="form-output-global">
+                                                    <input type="hidden" name="ReturnUrl" id="ReturnUrl">
+                                                    <input type="hidden" name="AccountID" id="AccountID" value="14">
+                                                    <input name="__RequestVerificationToken" type="hidden" value="QcIoj1KJnqMT1AUEodMf1kEsStGSYOwQa77S6Xs0S5qENHV11f4tEsaAYoohuhltgwbStg2">
+                                                    <div class="row" style="display:none;">
+                                                        <div class="col-md-6 mar">
+                                                            <a href="#" class="btn-socialmodal"> <span class="fa fa-facebook iconfb"></span> <span class="textfbmodal"> Register with Facebook</span> </a>
+
+                                                        </div>
+                                                        <div class="col-md-6" style="margin-top:-2px;">
+                                                            <a href="#" class="btn-socialmodal1"> <img src="Content/WDYT/images/google.png" class="googlemodal" alt=""> <span class="textgooglemodal"> Sign in with Google</span> </a>
+
+                                                        </div>
+                                                    </div>
+                                                    <br>
+                                                    <div class="col">
+                                                        <input type="text" name="UserName" placeholder="Your Login" class="form-control" id="UserName" required="">
+                                                    </div>
+                                                    <br>
+                                                    <div class="col">
+                                                        <input type="password" name="Password" placeholder="Your Password" class="form-control" id="Password" required="">
+                                                    </div>
+
+                                                    <input type="hidden" name="ReturnMessageCode" id="ReturnMessageCode" value="True">
+                                                    <br>
+                                                    <input type="submit" value="Login" class="btn btn-primary">
+                                                    <br><br>
+                                                    <div class="form-check" style="display:none;">
+                                                        <input type="checkbox" style="margin-top: 6px;" class="form-check-input" id="exampleCheck1">
+                                                        <label class="form-check-label" for="exampleCheck1">
+                                                            Remember Me
+                                                        </label>
+                                                    </div>
+                                                </form>
+                                            </center>
+                                            <br>
+                                            <a href="ForgetPassword.html" class="text-primary" target="_blank" rel="noopener noreferrer">Forgot your password?</a>
+                                            <p class="mb-3" style="margin-top:-2px;">
+                                                Haven't an account? <a href="Account/Join.html" class="text-primary" target="_blank">
+                                                    Sign up
+                                                    here.
+                                                </a>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="swiper-container swiper-slider" data-loop="true" data-autoplay="8000" data-height="100vh" data-dragable="false" data-min-height="480px" data-slide-effect="fade">
+                <div class="swiper-wrapper text-center">
+                    <div class="swiper-slide" id="page-loader" data-slide-bg="./Content/WDYT/images/black-friday-fashion-friends-1345082_multiply-2000x1155.jpg" data-preview-bg="./Content/WDYT/images/black-friday-fashion-friends-1345082_multiply-2000x1155.jpg">
+                        <div class="swiper-caption swiper-parallax">
+                            <div class="swiper-slide-caption">
+                                <div class="container">
+                                    <div class="row justify-content-xl-center">
+                                        <div class="col-xl-12">
+                                            <h1>
+                                                <span class="big text-uppercase not-animated" data-caption-animate="fadeIn" data-caption-delay="700" data-novi-id="6">rewarding the opinion of all australians</span>
+                                            </h1>
+                                        </div>
+                                        <div class="col-xl-10 offset-top-30">
+                                            <h4 class="d-none d-md-block text-light not-animated" data-caption-animate="fadeIn" data-caption-delay="900">
+                                                $1000's given
+                                                away
+                                                every month.
+                                            </h4>
+                                            <div class="group group-xl offset-top-20 offset-sm-top-50">
+                                                <a class="btn btn-primary btn-lg btn-anis-effect" href="Account/Join.html" data-caption-animate="fadeIn" data-caption-delay="1200">
+                                                    <span class="btn-text">join now</span>
+                                                </a><button class="btn btn-default btn-lg btn-anis-effect" data-toggle="modal" data-target="#exampleModal" data-caption-animate="fadeIn" data-caption-delay="1200">
+                                                    <span class="btn-text">login</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-slide-bg="./Content/WDYT/images/bruno-cervera-460422-unsplash_multiply-2000x1051.jpg" data-preview-bg="./Content/WDYT/images/bruno-cervera-460422-unsplash_multiply-2000x1051.jpg">
+                        <div class="swiper-caption swiper-parallax">
+                            <div class="swiper-slide-caption">
+                                <div class="container">
+                                    <div class="row justify-content-xl-center">
+                                        <div class="col-xl-12">
+                                            <h1>
+                                                New owners, new website, and lots of opportunities to
+                                                earn money online&nbsp;
+                                            </h1>
+                                        </div>
+                                        <div class="col-xl-10 offset-top-30">
+                                            <h4 class="d-none d-md-block text-light offset-bottom-0 not-animated" data-caption-animate="fadeIn" data-caption-delay="900"></h4>
+                                            <div class="group group-xl offset-top-20 offset-sm-top-50">
+                                                <a class="btn btn-primary btn-lg btn-anis-effect" href="Account/Join.html" data-caption-animate="fadeIn" data-caption-delay="1200">
+                                                    <span class="btn-text">join now</span>
+                                                </a><button class="btn btn-default btn-lg btn-anis-effect" data-toggle="modal" data-target="#exampleModal" data-caption-animate="fadeIn" data-caption-delay="1200">
+                                                    <span class="btn-text">login</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-slide-bg="./Content/WDYT/images/shutterstock_102384121_multiply-2000x1101-1.jpg" data-preview-bg="./Content/WDYT/images/shutterstock_102384121_multiply-2000x1101-1.jpg">
+                        <div class="swiper-caption swiper-parallax">
+                            <div class="swiper-slide-caption">
+                                <div class="container">
+                                    <div class="row justify-content-xl-center">
+                                        <div class="col-xl-12">
+                                            <h1>Helping Australians earn a little more</h1>
+                                        </div>
+                                        <div class="col-xl-10 offset-top-30">
+                                            <h4 class="d-none d-md-block text-light offset-bottom-0 not-animated" data-caption-animate="fadeIn" data-caption-delay="900">
+                                                Whether you're on
+                                                the
+                                                bus, train or have a few spare minutes in your day, WDYT can make this
+                                                time
+                                                productive wherever you are.
+                                            </h4>
+                                            <div class="group group-xl offset-top-20 offset-sm-top-50">
+                                                <a class="btn btn-primary btn-lg btn-anis-effect" href="Account/Join.html" data-caption-animate="fadeIn" data-caption-delay="1200">
+                                                    <span class="btn-text">join now</span>
+                                                </a><button class="btn btn-default btn-lg btn-anis-effect" data-toggle="modal" data-target="#exampleModal" data-caption-animate="fadeIn" data-caption-delay="1200">
+                                                    <span class="btn-text">login</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button swiper-button-prev swiper-parallax">
+                    <div class="preview">
+                        <div class="preview__img preview__img-3"></div>
+                        <div class="preview__img preview__img-2"></div>
+                        <div class="preview__img preview__img-1"></div>
+                    </div>
+                </div>
+                <div class="swiper-button swiper-button-next swiper-parallax">
+                    <div class="preview">
+                        <div class="preview__img preview__img-1"></div>
+                        <div class="preview__img preview__img-2"></div>
+                        <div class="preview__img preview__img-3"></div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </header>
+        <section class="section novi-background section-66">
+            <div class="container">
+                <h1>WDYT welcomes &amp; rewards the opinions of all Australians</h1>
+                <hr class="divider bg-mantis">
+                <div class="row offset-top-50 offset-top-66">
+                    <div class="col-md-8 offset-md-2 col-lg-4 offset-lg-0">
+                        <span class="icon novi-icon icon-circle icon-bordered icon-mantis-filled icon-outlined mdi-account-check mdi"></span>
+                        <div>
+                            <h4 class="text-uppercase offset-top-30 font-weight-bold">Become a member</h4>
+                            <p>It's free and only takes a couple of minutes to become a WDYT member</p>
+                        </div>
+                    </div>
+                    <div class="col-md-8 offset-md-2 col-lg-4 offset-lg-0 offset-top-50 offset-lg-top-0">
+                        <span class="icon novi-icon icon-circle icon-bordered icon-mantis-filled icon-outlined mdi-comment-processing mdi"></span>
+                        <div>
+                            <h4 class="text-uppercase offset-top-30 font-weight-bold">have your say</h4>
+                            <p>
+                                Once registered, you will receive surveys that fit your profile. Each time you complete a
+                                survey, you will accumulate rewards points in your account.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-8 offset-md-2 col-lg-4 offset-lg-0 offset-top-50 offset-lg-top-0">
+                        <span class="icon novi-icon icon-circle icon-bordered icon-mantis-filled icon-outlined mdi-cash-usd mdi"></span>
+                        <div>
+                            <h4 class="text-uppercase offset-top-30 font-weight-bold">earn cash rewards</h4>
+                            <p>
+                                Redeem rewards from a great range of partners, or choose to redeem cash paid directly
+                                into
+                                your bank account - your choice!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section novi-background section-66 context-dark bg-acapulco">
+            <div class="container">
+                <div class="row justify-content-sm-center align-items-sm-center no-gutters grid-group-md">
+                    <div class="col-lg-7 col-xxl-9 text-center text-lg-left">
+                        <h2 class="" data-novi-id="5">
+                            <span class="big" data-novi-id="4">
+                                Become a member and start
+                                earning today - it's FREE
+                            </span>
+                        </h2>
+                    </div>
+                    <div class="col-lg-4 col-xl-3">
+                        <a class="btn btn-icon btn-lg btn-default btn-anis-effect btn-icon-btn-icon-left" href="Account/Join.html">
+                            <span class="icon novi-icon mdi-account-plus mdi"></span>&nbsp;join
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section parallax-container" data-parallax-img="./Content/WDYT/images/artificial-photography-119298-unsplash_multiply-1456x539.jpg">
+            <div class="parallax-content context-dark">
+                <div class="container">
+                    <div class="row justify-content-sm-center section-top-124 section-bottom-110">
+                        <div class="col-sm-10 col-md-11 col-xl-12">
+                            <div class="row justify-content-sm-center">
+                                <div class="col-md-6 col-xl-4">
+                                    <span class="icon novi-icon icon-circle icon-bordered icon-outlined icon-pink-filled mdi-chart-line mdi"></span>
+                                    <div>
+                                        <h4 class="text-uppercase offset-top-30 font-weight-bold">
+                                            MORE SURVEYS, MORE
+                                            $$$
+                                        </h4>
+                                        <p class="inset-left-7p inset-right-7p">
+                                            WDYT runs more surveys than any other
+                                            survey
+                                            website in Australia, so you have more opportunities to earn rewards.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-4 offset-top-66 offset-md-top-0">
+                                    <span class="icon novi-icon icon-circle icon-bordered icon-outlined icon-malibu-filled mdi-account-multiple-plus mdi"></span>
+                                    <div>
+                                        <h4 class="text-uppercase offset-top-30 font-weight-bold">
+                                            Refer a friend &amp;
+                                            earn
+                                            more
+                                        </h4>
+                                        <p class="inset-left-7p inset-right-7p">
+                                            The more members we have, the more
+                                            surveys
+                                            we run - so share the love with your friends and family - and you&apos;ll receive
+                                            bonus rewards.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-4 offset-top-66 offset-xl-top-0">
+                                    <span class="icon novi-icon icon-circle icon-bordered icon-outlined icon-carrot-filled mdi-message-processing mdi"></span>
+                                    <div>
+                                        <h4 class="text-uppercase offset-top-30 font-weight-bold">
+                                            Make your opinion
+                                            count
+                                        </h4>
+                                        <p class="inset-left-7p inset-right-7p">
+                                            You can influence some big decisions
+                                            with
+                                            WDYT - whether its a new product launch or something happening at your local
+                                            council, your opinion matters.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-4 offset-top-66">
+                                    <span class="icon novi-icon icon-circle icon-bordered icon-outlined icon-red-filled mdi-call-split mdi"></span>
+                                    <div>
+                                        <h4 class="text-uppercase offset-top-30 font-weight-bold">
+                                            PARTNER REWARDS OR
+                                            CASH
+                                            REWARDS - IT&apos;S YOUR CHOICE
+                                        </h4>
+                                        <p class="inset-left-7p inset-right-7p">
+                                            Redeem from a wide range of leading
+                                            partners
+                                            OR receive cash directly into your account - it&apos;s your choice.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-4 offset-top-66">
+                                    <span class="icon novi-icon icon-circle icon-bordered icon-outlined icon-blue-gray-filled mdi-thumb-up-outline mdi"></span>
+                                    <div>
+                                        <h4 class="text-uppercase offset-top-30 font-weight-bold">
+                                            100% AUSTRALIAN OWNED
+                                            and
+                                            operated
+                                        </h4>
+                                        <p class="inset-left-7p inset-right-7p">
+                                            We&apos;re a bunch of Aussies having a crack
+                                            against the big guys. Please support the Australian&nbsp;underdog!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-4 offset-top-66">
+                                    <span class="icon novi-icon icon-circle icon-bordered icon-outlined icon-mantis-filled mdi-security mdi"></span>
+                                    <div>
+                                        <h4 class="text-uppercase offset-top-30 font-weight-bold">
+                                            SAFE, SECURE AND
+                                            PRIVACY
+                                            COMPLAINT
+                                        </h4>
+                                        <p class="inset-left-7p inset-right-7p">
+                                            Your privacy is really important to us -
+                                            We
+                                            encrypt the information you give us and our platform technology is ISO27001
+                                            certified.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section novi-background section-98 section-sm-110">
+            <div class="container">
+                <h1 class="">Redeem rewards from a range of partners - or cash!</h1>
+                <hr class="divider bg-mantis">
+                <div class="row justify-content-sm-center align-items-xl-center offset-top-66">
+                    <div class="col-md-10 col-lg-9 col-xl-12">
+                        <div class="row">
+                            <div class="col-md-4 col-xl-2">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_bcf.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-md-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_theiconic.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-md-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_target.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_itunes.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_rebel.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_davidjones.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="row-spacer d-none d-md-inline-block offset-top-41 offset-xl-top-66 d-md-none d-xl-inline-block">
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_kmart.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_freedom.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_flightcentre.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_coles.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_myer.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_woolworths.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="row-spacer d-none d-md-inline-block offset-top-41 offset-xl-top-60 d-md-none d-xl-inline-block">
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_jbhifi-1.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_thegoodguys.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_bunnings-1.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_spotify.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_uber-1.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xl-2 offset-top-41 offset-xl-top-0">
+                                <a href="Rewards.html">
+                                    <img class="img-semi-transparent" src="Content/WDYT/images/logo_jetstar.png" width="150" height="100" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section parallax-container bg-gray-darkest" data-parallax-img="./Content/WDYT/images/beach-foam-iphone-wallpaper-533923_multiply-2000x1162.jpg">
+            <div class="parallax-content context-dark">
+                <div class="container section-98 section-sm-110">
+                    <h2><span class="big">What our members say</span></h2>
+                    <hr class="divider divider-md bg-mantis">
+                    <div class="row offset-top-66">
+                        <ul class="list-inline owl-custom-pagination">
+                            <li class="list-inline-item owl-dot-custom rounded-circle img-bordered-white active" data-owl-item="0">
+                                <img class="rounded-circle" width="90" height="90" src="Content/WDYT/images/testimonial_07-1.png" alt="">
+                            </li>
+                            <li class="list-inline-item owl-dot-custom rounded-circle img-bordered-white active" data-owl-item="1">
+                                <img class="rounded-circle" width="90" height="90" src="Content/WDYT/images/testimonial_02-1.png" alt="">
+                            </li>
+                            <li class="list-inline-item owl-dot-custom rounded-circle img-bordered-white active" data-owl-item="2">
+                                <img class="rounded-circle" width="90" height="90" src="Content/WDYT/images/testimonial_03-2.png" alt="Alex Merphy">
+                            </li>
+                            <li class="list-inline-item owl-dot-custom rounded-circle img-bordered-white active" data-owl-item="3">
+                                <img class="rounded-circle" width="90" height="90" src="Content/WDYT/images/testimonial_04-1.png" alt="">
+                            </li>
+                            <li class="list-inline-item owl-dot-custom rounded-circle img-bordered-white active" data-owl-item="4">
+                                <img class="rounded-circle" width="90" height="90" src="Content/WDYT/images/testimonial_05-1.png" alt="">
+                            </li>
+                        </ul>
+                        <div class="owl-carousel owl-carousel-default owl-carousel-class-light veil-lg-owl-dots veil-owl-nav reveal-lg-owl-nav inset-left-7p inset-right-7p" data-mouse-drag="false" data-active="0" data-loop="false" data-dots="true" data-dots-custom=".owl-custom-pagination" data-nav="true" data-nav-class="[&quot;owl-prev mdi mdi-chevron-left&quot;, &quot;owl-next mdi mdi-chevron-right&quot;]" data-xl-items="1" data-autoplay="true">
+                            <div>
+                                <blockquote class="quote quote-custom-image offset-top-0 offset-md-top-24">
+                                    <img class="rounded-circle img-bordered-white img-fluid d-block mx-auto d-md-none" width="90" height="90" src="Content/WDYT/images/testimonial_07-3.png" alt="">
+                                    <p class="quote-body offset-top-34">
+                                        I've been a member of WDYT for a number of
+                                        years,
+                                        and it's a great way to bump up my income while i'm on the train to and from
+                                        work.
+                                    </p>
+                                    <div class="offset-top-41">
+                                        <h3 class="font-accent">James Spencer</h3>
+                                    </div>
+                                    <p class="text-uppercase font-weight-bold text-spacing-120 offset-top-10">
+                                        <span class="small text-malibu">Member since June 2016</span>
+                                    </p>
+                                </blockquote>
+                            </div>
+                            <div>
+                                <blockquote class="quote quote-custom-image offset-top-0 offset-md-top-24">
+                                    <img class="rounded-circle img-bordered-white img-fluid d-block mx-auto d-md-none" width="90" height="90" src="Content/WDYT/images/testimonial_02-2.png" alt="">
+                                    <p class="quote-body offset-top-34">
+                                        I save up my rewards and redeem for fashion
+                                        vouchers
+                                        just before summer. My friends always comment on my new wardrobe every year!
+                                    </p>
+                                    <div class="offset-top-41">
+                                        <h3 class="font-accent">Jane Simpson</h3>
+                                    </div>
+                                    <p class="text-uppercase font-weight-bold text-spacing-120 offset-top-10">
+                                        <span class="small text-malibu">Lover of all things Fashion</span>
+                                    </p>
+                                </blockquote>
+                            </div>
+                            <div>
+                                <blockquote class="quote quote-custom-image offset-top-0 offset-md-top-24">
+                                    <img class="rounded-circle img-bordered-white img-fluid d-block mx-auto d-md-none" width="90" height="90" src="Content/WDYT/images/testimonial_03-3.png" alt="Alex Merphy">
+                                    <p class="quote-body offset-top-34">
+                                        I complete a few surveys each&nbsp;month and it
+                                        helps me out with my groceries at Woolies!
+                                    </p>
+                                    <div class="offset-top-41">
+                                        <h3 class="font-accent">Alex Murphy</h3>
+                                    </div>
+                                    <p class="text-uppercase font-weight-bold text-spacing-120 offset-top-10"></p>
+                                </blockquote>
+                            </div>
+                            <div>
+                                <blockquote class="quote quote-custom-image offset-top-0 offset-md-top-24">
+                                    <img class="rounded-circle img-bordered-white img-fluid d-block mx-auto d-md-none" width="90" height="90" src="Content/WDYT/images/testimonial_04-2.png" alt="">
+                                    <p class="quote-body offset-top-34">
+                                        I love WDYT - it helps me save for my annual
+                                        girls
+                                        trip to Byron!
+                                    </p>
+                                    <div class="offset-top-41">
+                                        <h3 class="font-accent">Amanda Jayde</h3>
+                                    </div>
+                                    <p class="text-uppercase font-weight-bold text-spacing-120 offset-top-10">
+                                        <span class="small text-malibu">Has&nbsp;Referred all her friends to WDYT</span>
+                                    </p>
+                                </blockquote>
+                            </div>
+                            <div>
+                                <blockquote class="quote quote-custom-image offset-top-0 offset-md-top-24">
+                                    <img class="rounded-circle img-bordered-white img-fluid d-block mx-auto d-md-none" width="90" height="90" src="Content/WDYT/images/testimonial_05-3.png" alt="">
+                                    <p class="quote-body offset-top-34">
+                                        I catch a bus and train to commute to work each
+                                        day
+                                        - I use this time productively completing surveys with WDYT and I bring my kids
+                                        home
+                                        surprises with the rewards I earn.
+                                    </p>
+                                    <div class="offset-top-41">
+                                        <h3 class="font-accent">Aarav Sandoval</h3>
+                                    </div>
+                                    <p class="text-uppercase font-weight-bold text-spacing-120 offset-top-10">
+                                        <span class="small text-malibu">Member since Jan 2018</span>
+                                    </p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section novi-background section-66 context-dark bg-acapulco">
+            <div class="container">
+                <div class="row justify-content-sm-center align-items-sm-center no-gutters grid-group-md">
+                    <div class="col-lg-7 col-xxl-9 text-center text-lg-left">
+                        <h2 class="" data-novi-id="1">
+                            <span class="big" data-novi-id="0">
+                                $1000's earned by
+                                members&nbsp;every&nbsp;month
+                            </span>
+                        </h2>
+                    </div>
+                    <div class="col-lg-4 col-xl-3">
+                        <a class="btn btn-icon btn-lg btn-default btn-anis-effect btn-icon-btn-icon-left" href="Account/Join.html">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="section novi-background section-relative section-34 page-footer bg-black context-dark">
+            <div class="container">
+                <div class="row justify-content-md-center text-xl-left">
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="footer-brand">
+                            <a href="index.htm">
+                                <img style="margin-top: -5px;margin-left: -0px;" width="113" height="31" src="Content/WDYT/images/wdyt_logo_whiteblue-1-1.png" alt="">
+                            </a>
+                        </div>
+                        <p class="small text-darker offset-top-4">
+                            Earn cash for having your say.<br><br>© WDYT
+                            <span class="copyright-year"> 2019 </span><a href="PrivacyPolicy.html">
+                                Privacy
+                                Policy&nbsp;
+                            </a><a href="TermsandConditions.html">Terms of Service</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-lg-8 text-lg-right offset-top-34 offset-lg-top-0">
+                        <div>
+                            <ul class="list-inline list-inline-dashed p text-darker">
+                                <li class="list-inline-item"><a href="index.htm">Home</a></li>
+                                <li class="list-inline-item"><a href="Aboutus.html">About</a></li>
+                                <li class="list-inline-item"><a href="Rewards.html">Rewards</a></li>
+                                <li class="list-inline-item"><a href="FAQ.html">FAQ's</a></li>
+                                <li class="list-inline-item"><a href="ContactUs.html">Contact</a></li>
+
+                                    <li class="list-inline-item"><a href="Account/Join.html">Join</a></li>
+                                    <li class="list-inline-item"><a href="#" data-toggle="modal" data-target="#exampleModal">Login</a></li>
+
+                            </ul>
+                        </div>
+                        <ul class="list-inline list-inline-white offset-top-10 text-darker">
+                            <li class="list-inline-item">
+                                <a class="fa fa-facebook" href="https://www.facebook.com/WDYT.OnlineRewards/" target="_blank"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="Scripts/jquery-2.0.3.min.js"></script>
+    <script src="Content/WDYT/js/core.min.js"></script>
+    <script src="Content/WDYT/js/script.js?ver=1.2"></script>
+    <script src="Content/WDYT/js/jquery-ui.js"></script>
+    <script src="Content/WDYT/js/jquery.validate.min.js"></script>
+    <script src="Content/WDYT/js/additional-methods.min.js"></script>
+
+</body>
+
+</html>

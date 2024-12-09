@@ -1,0 +1,436 @@
+Uri: https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:300,300italic,400,700,900|Yesteryear
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPHA.ttf
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\s\lato\v24\S6u9w4BMUTPHh50XSwiPHA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPHA.ttf
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\s\lato\v24\S6u9w4BMUTPHh6UVSwiPHA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwiPHA.ttf
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\s\lato\v24\S6u9w4BMUTPHh7USSwiPHA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wWw.ttf
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\s\lato\v24\S6uyw4BMUTPHjx4wWw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\s\lato\v24\S6u_w4BMUTPHjxsI9w2_Gwfo.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\s\montserrat\v29\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aX8.ttf
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\s\montserrat\v29\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/yesteryear/v19/dg4g_p78rroaKl8kRKo1n7sNSw.ttf
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\s\yesteryear\v19\dg4g_p78rroaKl8kRKo1n7sNSw.ttf
+Content Type: font/ttf
+
+Uri: https://www.facebook.com/tr?id=384239605837463&ev=PageView&noscript=1
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\tr
+Content Type: text/plain
+
+Uri: https://www.googletagmanager.com/gtag/js?id=AW-707836602
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\gtag\js-1
+Content Type: application/javascript
+
+Uri: https://www.googletagmanager.com/gtag/js?id=UA-145842240-1
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\gtag\js
+Content Type: application/javascript
+
+Uri: https://www.wdyt.com.au/
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\index.htm
+Content Type: text/html
+
+Uri: https://www.wdyt.com.au/Aboutus
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Aboutus.html
+Content Type: text/html
+
+Uri: https://www.wdyt.com.au/Account/CaptchaImage?encryptedSolution=jhlxVbWLxUee812qXmLXKg%3d%3d
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Account\CaptchaImage
+Content Type: image/gif
+
+Uri: https://www.wdyt.com.au/Account/Join
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Account\Join.html
+Content Type: text/html
+
+Uri: https://www.wdyt.com.au/ContactUs
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\ContactUs.html
+Content Type: text/html
+
+Uri: https://www.wdyt.com.au/Content/Canview/Home/images/giphy.gif
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\Canview\Home\images\giphy.gif
+Content Type: image/gif
+
+Uri: https://www.wdyt.com.au/Content/Dashboard/dist/img/refresh.gif
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\Dashboard\dist\img\refresh.gif
+Content Type: image/gif
+
+Uri: https://www.wdyt.com.au/Content/WDYT/css/jquery-ui.css
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\css\jquery-ui.css
+Content Type: text/css
+
+Uri: https://www.wdyt.com.au/Content/WDYT/css/novi.css
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\css\novi.css
+Content Type: text/css
+
+Uri: https://www.wdyt.com.au/Content/WDYT/css/style.css
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\css\style.css
+Content Type: text/css
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/Flaticon.eot
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\Flaticon.eot
+Content Type: application/octet-stream
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/Flaticon.eot?
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\Flaticon-1.eot
+Content Type: application/octet-stream
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/Flaticon.svg
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\Flaticon.svg
+Content Type: image/svg+xml
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/Flaticon.ttf
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\Flaticon.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/Flaticon.woff
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\Flaticon.woff
+Content Type: application/font-woff
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/fontawesome-webfont.eot?
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\fontawesome-webfont-1.eot
+Content Type: application/octet-stream
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/fontawesome-webfont.eot?v=4.5.0
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\fontawesome-webfont.eot
+Content Type: application/octet-stream
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/fontawesome-webfont.svg?v=4.5.0
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/fontawesome-webfont.ttf?v=4.5.0
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\fontawesome-webfont.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/fontawesome-webfont.woff2?v=4.5.0
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\fontawesome-webfont.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/fontawesome-webfont.woff?v=4.5.0
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\fontawesome-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/Linearicons.eot
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\Linearicons.eot
+Content Type: application/octet-stream
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/Linearicons.ttf
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\Linearicons.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/Linearicons.woff
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\Linearicons.woff
+Content Type: application/font-woff
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/materialdesignicons-webfont.eot?
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\materialdesignicons-webfont-1.eot
+Content Type: application/octet-stream
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/materialdesignicons-webfont.eot?v=1.4.57
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\materialdesignicons-webfont.eot
+Content Type: application/octet-stream
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/materialdesignicons-webfont.svg?v=1.4.57
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\materialdesignicons-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/materialdesignicons-webfont.ttf?v=1.4.57
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\materialdesignicons-webfont.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/materialdesignicons-webfont.woff2?v=1.4.57
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\materialdesignicons-webfont.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/materialdesignicons-webfont.woff?v=1.4.57
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\materialdesignicons-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/revicons/revicons.eot?5510888
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\revicons\revicons.eot
+Content Type: application/octet-stream
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/revicons/revicons.svg?5510888
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\revicons\revicons.svg
+Content Type: image/svg+xml
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/revicons/revicons.ttf?5510888
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\revicons\revicons.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.wdyt.com.au/Content/WDYT/fonts/revicons/revicons.woff?5510888
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\fonts\revicons\revicons.woff
+Content Type: application/font-woff
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/633328.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\633328.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/coloredbg.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\coloredbg.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/favicon.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\favicon.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/google.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\google.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/gridtile.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\gridtile.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/gridtile_3x3.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\gridtile_3x3.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/gridtile_3x3_white.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\gridtile_3x3_white.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/gridtile_white.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\gridtile_white.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/loader.gif
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\loader.gif
+Content Type: image/gif
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_bcf.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_bcf.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_bunnings-1.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_bunnings-1.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_coles.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_coles.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_davidjones.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_davidjones.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_flightcentre.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_flightcentre.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_freedom.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_freedom.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_itunes.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_itunes.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_jbhifi-1.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_jbhifi-1.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_jetstar.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_jetstar.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_kmart.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_kmart.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_myer.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_myer.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_rebel.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_rebel.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_spotify.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_spotify.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_target.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_target.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_thegoodguys.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_thegoodguys.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_theiconic.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_theiconic.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_uber-1.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_uber-1.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/logo_woolworths.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\logo_woolworths.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/man.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\man.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/pdf/Privacy_Policy_July_2019.pdf
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\pdf\Privacy_Policy_July_2019.pdf
+Content Type: application/pdf
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/preloader.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\preloader.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/rewards_logos.jpg
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\rewards_logos.jpg
+Content Type: image/jpeg
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/testimonial_02-1.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\testimonial_02-1.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/testimonial_02-2.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\testimonial_02-2.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/testimonial_03-2.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\testimonial_03-2.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/testimonial_03-3.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\testimonial_03-3.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/testimonial_04-1.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\testimonial_04-1.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/testimonial_04-2.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\testimonial_04-2.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/testimonial_05-1.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\testimonial_05-1.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/testimonial_05-3.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\testimonial_05-3.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/testimonial_07-1.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\testimonial_07-1.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/testimonial_07-3.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\testimonial_07-3.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/wdyt_laptop_mock.jpg
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\wdyt_laptop_mock.jpg
+Content Type: image/jpeg
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/wdyt_logo_whiteblue-1-1.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\wdyt_logo_whiteblue-1-1.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/images/wdyt_logo_whiteblue-1.png
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\images\wdyt_logo_whiteblue-1.png
+Content Type: image/png
+
+Uri: https://www.wdyt.com.au/Content/WDYT/js/additional-methods.min.js
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\js\additional-methods.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.wdyt.com.au/Content/WDYT/js/core.min.js
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\js\core.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.wdyt.com.au/Content/WDYT/js/jquery-ui.js
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\js\jquery-ui.js
+Content Type: application/x-javascript
+
+Uri: https://www.wdyt.com.au/Content/WDYT/js/jquery.validate.min.js
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\js\jquery.validate.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.wdyt.com.au/Content/WDYT/js/revolution.min.js
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\js\revolution.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.wdyt.com.au/Content/WDYT/js/script.js
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\js\script-1.js
+Content Type: application/x-javascript
+
+Uri: https://www.wdyt.com.au/Content/WDYT/js/script.js?ver=1.2
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\js\script.js
+Content Type: application/x-javascript
+
+Uri: https://www.wdyt.com.au/Content/WDYT/js/script.js?ver=1.3
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Content\WDYT\js\script-2.js
+Content Type: application/x-javascript
+
+Uri: https://www.wdyt.com.au/FAQ
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\FAQ.html
+Content Type: text/html
+
+Uri: https://www.wdyt.com.au/ForgetPassword
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\ForgetPassword.html
+Content Type: text/html
+
+Uri: https://www.wdyt.com.au/PrivacyPolicy
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\PrivacyPolicy.html
+Content Type: text/html
+
+Uri: https://www.wdyt.com.au/Rewards
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Rewards.html
+Content Type: text/html
+
+Uri: https://www.wdyt.com.au/Scripts/jquery-2.0.3.min.js
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Scripts\jquery-2.0.3.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.wdyt.com.au/Scripts/jquery-3.2.4.unobtrusive-ajax.min.js
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Scripts\jquery-3.2.4.unobtrusive-ajax.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.wdyt.com.au/Scripts/jquery-5.2.3.validate.unobtrusive.js
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Scripts\jquery-5.2.3.validate.unobtrusive.js
+Content Type: application/x-javascript
+
+Uri: https://www.wdyt.com.au/Scripts/RVIDWrapperAjax3.js
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Scripts\RVIDWrapperAjax3.js
+Content Type: application/x-javascript
+
+Uri: https://www.wdyt.com.au/Scripts/UserDefinedScripts/ContactUs.js?ver=1.0
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Scripts\UserDefinedScripts\ContactUs.js
+Content Type: application/x-javascript
+
+Uri: https://www.wdyt.com.au/Scripts/UserDefinedScripts/UserJoinJourney.js?ver=1.1
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\Scripts\UserDefinedScripts\UserJoinJourney.js
+Content Type: application/x-javascript
+
+Uri: https://www.wdyt.com.au/TermsandConditions
+File Name: C:\Users\teama\Desktop\wd1\www.wdyt.com.au\TermsandConditions.html
+Content Type: text/html
+
